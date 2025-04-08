@@ -25,7 +25,7 @@ import (
 
 func main() {
 	c, err := captcha.New(
-        // replace with your font file path
+		// replace with your font file path
 		captcha.WithFont("/path/to/font.ttf", 40),
 		captcha.WithSize(150, 50),
 		captcha.WithLength(4, 6),
